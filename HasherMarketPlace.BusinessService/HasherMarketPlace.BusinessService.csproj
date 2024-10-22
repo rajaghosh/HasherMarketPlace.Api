@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>HasherMarketPlace.BusinessService</AssemblyName>
+    <RootNamespace>HasherMarketPlace.BusinessService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="8.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HasherMarketPlace.DBHelper\HasherMarketPlace.DBHelper.csproj" />
+    <ProjectReference Include="..\HasherMarketPlace.ModelHelper\HasherMarketPlace.ModelHelper.csproj" />
+  </ItemGroup>
+
+</Project>
